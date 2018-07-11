@@ -12,3 +12,5 @@ Done!
 
 ## WARNING
 This program will overwrite any names.lua file present in the same directory as the exe.
+
+This exe was created using the NPM pkg package. see here for details: https://www.npmjs.com/package/pkg
