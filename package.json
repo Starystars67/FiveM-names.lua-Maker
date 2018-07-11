@@ -1,0 +1,19 @@
+{
+  "name": "fivem-names.lua-maker",
+  "version": "1.0.0",
+  "description": "Convert text file to names.lua",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Starystars67/FiveM-names.lua-Maker.git"
+  },
+  "author": "Mitch D (Titch2000)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Starystars67/FiveM-names.lua-Maker/issues"
+  },
+  "homepage": "https://github.com/Starystars67/FiveM-names.lua-Maker#readme"
+}
