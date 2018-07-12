@@ -23,11 +23,13 @@ fs.readFile('./gxt2.txt', 'utf8', function(err, data) {
     
     output += 'end)'
 
-    console.log(output);
-
     fs.writeFile ("./names.lua", output, function(err) {
         if (err) throw err;
 
         console.log('Successfully converted ', matches.length, ' entries');
+
+        console.log('Press any key to exit');
+
+        process.stdin.on('data', process.exit.bind(process, 0));
     });
 });
